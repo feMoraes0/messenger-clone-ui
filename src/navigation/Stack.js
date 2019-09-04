@@ -7,7 +7,10 @@ import Tabs from "./Tabs";
 const stack = createStackNavigator(
   {
     Tabs: {
-      screen: Tabs
+      screen: Tabs,
+      navigationOptions: () => ({
+        header: null
+      })
     }
   },
   {

@@ -1,9 +1,6 @@
 {  
   "contacts" : 
   [ 
-    {
-      "id": "0"
-    },
     { "id": "1",
       "uri": "https://pbs.twimg.com/profile_images/803705938125459456/lbICKs79_400x400.jpg", 
       "name": "Nome 1",

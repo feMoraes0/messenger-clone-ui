@@ -8,6 +8,7 @@ import Header from "../components/Header";
 import HeaderIcon from "../components/HeaderIcon";
 import SearchBar from "../components/SearchBar";
 import RoundedImage from "../components/RoundedImage";
+import ChatLine from "../components/ChatLine";
 
 export default class Chats extends React.Component {
   static navigationOptions = {
@@ -23,16 +24,24 @@ export default class Chats extends React.Component {
       :
       <View style={styles.stories}>
         <View style={styles.storiesAdd}>
-          <Icon name={"add"} size={35} color={"#cccccc"}/>
+          <Icon name={"add"} size={35} color={"#1a1b1c"}/>
         </View>
         <Text style={styles.storiesText}>Your story</Text>
       </View>
     )
   }
 
+  _renderChatLine = ({item}) => {
+    return(
+      <View>
+        <ChatLine item={item} />
+      </View>
+    )
+  }
+
   render() {
     return(
-      <SafeAreaView>
+      <SafeAreaView style={{ flex: 1 }}>
         <StatusBar backgroundColor="#ffffff" barStyle="dark-content" />
         
         <Header screen={"Chats"}>
@@ -40,20 +49,27 @@ export default class Chats extends React.Component {
           <HeaderIcon name={"pencil"}/>
         </Header>
 
-        <TouchableOpacity>
-          <SearchBar />
-        </TouchableOpacity>
+        <ScrollView>
+          <TouchableOpacity>
+            <SearchBar />
+          </TouchableOpacity>
 
-        <ScrollView style={styles.boxStories}>
-          <FlatList
-            data={data.stories}
-            renderItem={this._renderStories}
-            horizontal={true}
-            style={styles.storiesList}
-          />
-        </ScrollView>
+          <ScrollView style={styles.boxStories}>
+            <FlatList
+              data={data.stories}
+              renderItem={this._renderStories}
+              horizontal={true}
+              style={styles.storiesList}
+            />
+          </ScrollView>
 
-        
+          <View>
+            <FlatList
+              data={data.contacts}
+              renderItem={this._renderChatLine}
+            />
+          </View>
+        </ScrollView>        
       </SafeAreaView>
     );
   }

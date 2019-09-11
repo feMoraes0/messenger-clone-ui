@@ -4,8 +4,7 @@ import { SafeAreaView, StatusBar, TouchableOpacity, ScrollView, View, Text, Flat
 import Icon from "react-native-vector-icons/Feather";
 
 import * as data from "../../demos/data.json";
-import Header from "../components/Header";
-import HeaderIcon from "../components/HeaderIcon";
+import { Header, HeaderIcon } from "../components/Header";
 import SearchBar from "../components/SearchBar";
 import RoundedImage from "../components/RoundedImage";
 import ChatLine from "../components/ChatLine";

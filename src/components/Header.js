@@ -1,7 +1,16 @@
 import React from "react";
 import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
+import Icon from "react-native-vector-icons/FontAwesome";
 
-export default class Header extends React.Component {
+export class HeaderIcon extends React.Component {
+  render() {
+    return(
+      <Icon name={this.props.name} size={18} style={styles.icon} />
+    )
+  }
+}
+
+export class Header extends React.Component {
 
   render() {
     return(
@@ -43,7 +52,12 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     marginLeft: 10
   },
-  
+  icon: {
+    borderRadius: 18,
+    padding: 9,
+    backgroundColor: "#EFEFEF",
+    marginLeft: 10,
+  },
   userImage: {
     height: 35,
     width: 35,

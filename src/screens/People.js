@@ -4,8 +4,7 @@ import { SafeAreaView, View, Text } from "react-native";
 import Icon from "react-native-vector-icons/Feather";
 
 import * as data from "../../demos/data.json";
-import Header from "../components/Header";
-import HeaderIcon from "../components/HeaderIcon";
+import { Header, HeaderIcon } from "../components/Header";
 
 export default class People extends React.Component {
   static navigationOptions = {

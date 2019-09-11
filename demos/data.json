@@ -1,0 +1,121 @@
+{  
+  "contacts" : 
+  [ 
+    {
+      "id": "0"
+    },
+    { "id": "1",
+      "uri": "https://pbs.twimg.com/profile_images/803705938125459456/lbICKs79_400x400.jpg", 
+      "name": "Nome 1",
+      "message": "Say hello to my little friend",
+      "date": "30 Jul" 
+    },
+    { "id": "2",
+      "uri": "https://images-na.ssl-images-amazon.com/images/I/61xBagD%2B6%2BL._SX425_.jpg", 
+      "name": "Nome 2",
+      "message": "Say hello to my little friend",
+      "date": "30 Jul"
+    },
+    { "id": "3",
+      "uri": "https://i.pinimg.com/originals/e6/50/32/e65032b045b7919ab19e4bdf85743390.jpg", 
+      "name": "Nome 3",
+      "message": "Say hello to me",
+      "date": "30 Jul"
+    },
+    { "id": "4",
+      "uri": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Lucas_the_Spider.jpg/220px-Lucas_the_Spider.jpg", 
+      "name": "Nome 3",
+      "message": "Say hello to my little friend",
+      "date": "30 Jul"
+    },
+    { "id": "5",
+      "uri": "http://www.portlandcorgi.com/resources/11750715_891738174238873_903073738778512688_n.jpg", 
+      "name": "Nome 4",
+      "message": "Ok!",
+      "date": "30 Jul" 
+    },
+    { "id": "6",
+      "uri": "https://pbs.twimg.com/profile_images/803705938125459456/lbICKs79_400x400.jpg", 
+      "name": "Nome 5", 
+      "message": "Say hello to my little friend",
+      "date": "30 Jul"
+    },
+    { "id": "7",
+      "uri": "https://images-na.ssl-images-amazon.com/images/I/61xBagD%2B6%2BL._SX425_.jpg", 
+      "name": "Nome 6",
+      "message": "Say hello to my little friend",
+      "date": "30 Jul"
+    },
+    { "id": "8",
+      "uri": "https://i.pinimg.com/originals/e6/50/32/e65032b045b7919ab19e4bdf85743390.jpg", 
+      "name": "Nome 7",
+      "message": "Say hello to me",
+      "date": "30 Jul"
+    },
+    { "id": "9",
+      "uri": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Lucas_the_Spider.jpg/220px-Lucas_the_Spider.jpg",
+      "name": "Nome 8",
+      "message": "Say hello to my little friend",
+      "date": "30 Jul"
+    },
+    { "id": "10",
+      "uri": "http://www.portlandcorgi.com/resources/11750715_891738174238873_903073738778512688_n.jpg",
+      "name": "Nome 9",
+      "message": "Ok!",
+      "date": "30 Jul"
+    }
+  ],
+  "stories":
+  [
+    {
+      "id": "1",
+      "user_img": "https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Lucas_the_Spider.jpg/220px-Lucas_the_Spider.jpg",
+      "user_name": "Lukas, The Spider",
+      "user_story": null
+    },
+    {
+      "id": "2",
+      "user_img": "http://www.portlandcorgi.com/resources/11750715_891738174238873_903073738778512688_n.jpg",
+      "user_name": "Dog Shippuden",
+      "user_story": "https://i.pinimg.com/originals/e6/50/32/e65032b045b7919ab19e4bdf85743390.jpg"
+    },
+    {
+      "id": "3",
+      "user_img": "https://images-na.ssl-images-amazon.com/images/I/61xBagD%2B6%2BL._SX425_.jpg",
+      "user_name": "Dogonaro",
+      "user_story": "https://brobible.files.wordpress.com/2018/05/shutterstock_761646763.jpg?quality=90&w=650&h=434"
+    },
+    {
+      "id": "4",
+      "user_img": "https://i.pinimg.com/originals/e6/50/32/e65032b045b7919ab19e4bdf85743390.jpg",
+      "user_name": "Corgi",
+      "user_story": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/WelshCorgi.jpeg/220px-WelshCorgi.jpeg"
+      
+    },
+    {
+      "id": "5",
+      "user_img": "https://pbs.twimg.com/profile_images/803705938125459456/lbICKs79_400x400.jpg",
+      "user_name": "CatDog",
+      "user_story": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/A_Smiling_Corgi_with_two_colors.jpg/220px-A_Smiling_Corgi_with_two_colors.jpg"
+    },
+    {
+      "id": "6",
+      "user_img": "https://images-na.ssl-images-amazon.com/images/I/61xBagD%2B6%2BL._SX425_.jpg",
+      "user_name": "Dog Shippuden",
+      "user_story": "http://www.portlandcorgi.com/resources/11750715_891738174238873_903073738778512688_n.jpg"
+    },
+    {
+      "id": "7",
+      "user_img": "https://brobible.files.wordpress.com/2018/05/shutterstock_761646763.jpg?quality=90&w=650&h=434",
+      "user_name": "LulaDog",
+      "user_story": "https://i.pinimg.com/originals/e6/50/32/e65032b045b7919ab19e4bdf85743390.jpg"
+    },
+    {
+      "id": "8",
+      "user_img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/WelshCorgi.jpeg/220px-WelshCorgi.jpeg",
+      "user_name": "Corgi da Silva",
+      "user_story": "https://pbs.twimg.com/profile_images/803705938125459456/lbICKs79_400x400.jpg"
+      
+    }
+  ]
+}

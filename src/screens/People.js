@@ -1,12 +1,26 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { SafeAreaView, View, Text } from "react-native";
+
+import Icon from "react-native-vector-icons/Feather";
+
+import * as data from "../../demos/data.json";
+import Header from "../components/Header";
+import HeaderIcon from "../components/HeaderIcon";
 
 export default class People extends React.Component {
+  static navigationOptions = {
+    tabBarIcon: ({tintColor}) => { return (<Icon name={"users"} size={30} color={tintColor} />)}
+  }
+
   render() {
     return(
-      <View>
-        <Text> People </Text>
-      </View>
+      <SafeAreaView>
+        <Header screen={"People"}>
+          <HeaderIcon name={"address-book-o"}/>
+          <HeaderIcon name={"user-plus"}/>
+        </Header>
+
+      </SafeAreaView>
     );
   }
 }

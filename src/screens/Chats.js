@@ -24,7 +24,7 @@ export default class Chats extends React.Component {
       :
       <View style={styles.stories}>
         <View style={styles.storiesAdd}>
-          <Icon name={"add"} size={35} color={"#1a1b1c"}/>
+          <Icon name={"plus"} size={35} color={"#1a1b1c"}/>
         </View>
         <Text style={styles.storiesText}>Your story</Text>
       </View>

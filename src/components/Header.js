@@ -1,8 +1,8 @@
 import React from "react";
 import { View, Text, Image, StyleSheet, TouchableOpacity } from "react-native";
-import Icon from "react-native-vector-icons/FontAwesome";
 
 export default class Header extends React.Component {
+
   render() {
     return(
       <View style={styles.container}>
@@ -16,8 +16,7 @@ export default class Header extends React.Component {
           <Text style={styles.title}>{this.props.screen}</Text>
         </View>
         <View style={styles.rightContainer}>
-          <Icon name={"camera"} size={18} style={styles.icon} />
-          <Icon name={"pencil"} size={18} style={styles.icon}/>
+          { this.props.children }
         </View>
       </View>
     );
@@ -28,7 +27,8 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
     justifyContent: "space-between",
-    paddingHorizontal: 20
+    paddingHorizontal: 20,
+    paddingVertical: 10
   },
   leftContainer: {
     flexDirection: "row",
@@ -39,19 +39,14 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   title: {
-    fontSize: 24,
-    fontWeight: "600",
+    fontSize: 26,
+    fontWeight: "bold",
     marginLeft: 10
   },
-  icon: {
-    borderRadius: 18,
-    padding: 9,
-    backgroundColor: "#EFEFEF",
-    marginLeft: 10,
-  },
+  
   userImage: {
-    height: 35,
-    width: 35,
-    borderRadius: 45
+    height: 40,
+    width: 40,
+    borderRadius: 40
   }
 });

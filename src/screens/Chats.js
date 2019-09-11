@@ -1,7 +1,7 @@
 import React from "react";
 import { SafeAreaView, StatusBar, TouchableOpacity, ScrollView, View, Text, FlatList, StyleSheet } from "react-native";
 
-import Icon from "react-native-vector-icons/MaterialIcons";
+import Icon from "react-native-vector-icons/Feather";
 
 import * as data from "../../demos/data.json";
 import Header from "../components/Header";
@@ -12,7 +12,7 @@ import ChatLine from "../components/ChatLine";
 
 export default class Chats extends React.Component {
   static navigationOptions = {
-    tabBarIcon: ({tintColor}) => { return (<Icon name={"chat-bubble-outline"} size={30} color={tintColor}/> ) }
+    tabBarIcon: ({tintColor}) => { return (<Icon name={"message-circle"} size={30} color={tintColor}/> ) }
   }
 
   _renderStories = ({item}) => {

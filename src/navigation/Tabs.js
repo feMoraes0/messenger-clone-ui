@@ -21,9 +21,11 @@ const tabs = createBottomTabNavigator(
       showLabel: false,
       style: {
         backgroundColor: "#ffffff",
-        paddingBottom: 30,
-        paddingTop: 30,
-        borderTopColor: "#ffffff"
+        borderTopColor: "#ffffff",
+        marginBottom: 5
+      },
+      tabStyle: {
+        padding: 0
       }
     },
     

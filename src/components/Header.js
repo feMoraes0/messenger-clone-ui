@@ -45,8 +45,8 @@ const styles = StyleSheet.create({
   },
   
   userImage: {
-    height: 40,
-    width: 40,
-    borderRadius: 40
+    height: 35,
+    width: 35,
+    borderRadius: 35
   }
 });

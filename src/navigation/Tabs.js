@@ -2,8 +2,6 @@ import React from "react";
 import { createAppContainer } from "react-navigation";
 import { createBottomTabNavigator } from "react-navigation-tabs";
 
-import Icon from "react-native-vector-icons/Feather";
-
 import ChatsScreen from "../screens/Chats";
 import PeopleScreen from "../screens/People";
 import DiscoverScreen from "../screens/Discover";
@@ -15,6 +13,7 @@ const tabs = createBottomTabNavigator(
     Discover: DiscoverScreen
   },
   {
+    initialRouteName: "Chats",
     tabBarOptions: {
       activeTintColor: "#1a1b1c",
       inactiveTintColor: "#898989",

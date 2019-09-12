@@ -6,10 +6,6 @@ import * as data from "../../demos/data.json";
 
 import RoundedImage from "../components/RoundedImage";
 export default class Stories extends Component {
-  static navigationOptions = {
-    title: "Hello"
-  }
-
   _renderCard = ({item}) => {
     return((item.user_story !== null) ?
       <TouchableOpacity style={styles.story}>

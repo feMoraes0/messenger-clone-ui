@@ -11,7 +11,7 @@ import ChatLine from "../components/ChatLine";
 
 export default class Chats extends React.Component {
   static navigationOptions = {
-    tabBarIcon: ({tintColor}) => { return (<Icon name={"message-circle"} size={30} color={tintColor}/> ) }
+    tabBarIcon: ({tintColor}) => { return (<Icon name={"message-circle"} size={25} color={tintColor}/> ) }
   }
 
   _renderStories = ({item}) => {

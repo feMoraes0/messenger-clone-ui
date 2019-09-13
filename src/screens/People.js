@@ -9,7 +9,7 @@ import TopTabPeople from "../navigation/TopTabPeople";
 
 export default class People extends React.Component {
   static navigationOptions = {
-    tabBarIcon: ({tintColor}) => { return (<Icon name={"users"} size={30} color={tintColor}/> ) }
+    tabBarIcon: ({tintColor}) => { return (<Icon name={"users"} size={25} color={tintColor}/> ) }
   }
 
   render() {

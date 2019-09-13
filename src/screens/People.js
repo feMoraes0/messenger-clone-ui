@@ -1,5 +1,5 @@
 import React from "react";
-import { SafeAreaView, View, Text, StyleSheet } from "react-native";
+import { SafeAreaView, View, Text, StatusBar, StyleSheet } from "react-native";
 
 import Icon from "react-native-vector-icons/Feather";
 
@@ -15,6 +15,7 @@ export default class People extends React.Component {
   render() {
     return(
       <SafeAreaView style={styles.container}>
+        <StatusBar backgroundColor="#ffffff" barStyle="dark-content" />
         <Header screen={"People"}>
           <HeaderIcon name={"address-book-o"}/>
           <HeaderIcon name={"user-plus"}/>

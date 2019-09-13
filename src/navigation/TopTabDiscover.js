@@ -26,7 +26,7 @@ const topTabDiscover = createMaterialTopTabNavigator(
     }
   },
   {
-    initialRouteName: "Bussinesses",
+    initialRouteName: "Games",
     tabBarOptions: {
       activeTintColor: "#1a1b1c",
       inactiveTintColor: "#999999",

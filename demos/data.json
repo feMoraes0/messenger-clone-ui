@@ -177,5 +177,37 @@
         "subtitle": "Build and ship beautiful cross-platform hybrid and Progressive Web Apps with ease"
       }
     ]
+  },
+  "games": {
+    "friends":
+    [
+      {
+        "id": "1",
+        "name": "Nome 10",
+        "image": "http://www.portlandcorgi.com/resources/11750715_891738174238873_903073738778512688_n.jpg",
+        "game": "Catch the ball"
+      },
+      {
+        "id": "2",
+        "name": "Nome 3",
+        "image": "https://i.pinimg.com/originals/e6/50/32/e65032b045b7919ab19e4bdf85743390.jpg",
+        "game": "Roll"
+      }
+    ],
+    "games": 
+    [
+      {
+        "id": "1",
+        "game": "Catch the ball fail",
+        "game_image": "https://barkpost.com/wp-content/uploads/2014/05/dog_ball_fail.jpg",
+        "company_image": "https://cdn.shopify.com/s/files/1/1382/0769/products/1PC-24CM-Big-Inflatable-Tennis-Ball-Giant-Pet-Toy-Tennis-Ball-Dog-Chew-Toy-Signature-Mega-1_large.jpg?v=1476070336"
+      },
+      {
+        "id": "2",
+        "game": "Roll",
+        "game_image": "https://vetstreet-brightspot.s3.amazonaws.com/bb/b1/f4504ec84f28b0e4e55e084c47f0/dog-rolling-in-grass-thinkstockphotos-523661051-335.jpg",
+        "company_image": "https://res.cloudinary.com/teepublic/image/private/s--aXlQP02---/t_Preview/b_rgb:eae0c7,c_lpad,f_jpg,h_630,q_90,w_1200/v1531578410/production/designs/2890432_0.jpg"
+      }
+    ]
   }
 }

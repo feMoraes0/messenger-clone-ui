@@ -1,7 +1,12 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { SafeAreaView, View, Text, StyleSheet } from "react-native";
 
 import Icon from "react-native-vector-icons/Feather";
+
+import { Header } from "../components/Header";
+import SearchBar from "../components/SearchBar";
+import TopTab from "../navigation/TopTabDiscover";
+
 export default class Discover extends React.Component {
   static navigationOptions = {
     tabBarIcon: ({tintColor}) => { return (<Icon name={"compass"} size={25} color={tintColor} />) }
@@ -9,9 +14,17 @@ export default class Discover extends React.Component {
 
   render() {
     return(
-      <View>
-        <Text> Discover </Text>
-      </View>
+      <SafeAreaView style={styles.container}>
+        <Header screen={"Discover"}/>
+        <SearchBar />
+        <TopTab />
+      </SafeAreaView>
     );
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1
+  }
+})

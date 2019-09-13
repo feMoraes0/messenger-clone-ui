@@ -1,34 +1,32 @@
 import React from "react";
-import { View, Text } from "react-native";
 import { createAppContainer } from "react-navigation";
 import { createMaterialTopTabNavigator } from "react-navigation-tabs";
 
-import StoriesScreen from "../screens/Stories";
-import ActiveScreen from "../screens/Active";
+import Bussinesses from "../screens/Bussinesses";
+import Games from "../screens/Games";
 import Label from "../components/LabelTabs";
 
-
-const topTab = createMaterialTopTabNavigator(
+const topTabDiscover = createMaterialTopTabNavigator(
   {
-    Stories: {
-      screen: StoriesScreen,
+    Bussinesses: {
+      screen: Bussinesses,
       navigationOptions: {
         tabBarLabel: ({tintColor, focused}) => {
-          return <Label text={"STORIES"} tintColor={tintColor} focused={focused}/>
+          return <Label text={"BUSSINESSES"} tintColor={tintColor} focused={focused}/>
         }
       }
     },
-    Active: {
-      screen: ActiveScreen,
+    Games: {
+      screen: Games,
       navigationOptions: {
         tabBarLabel: ({tintColor, focused}) => {
-          return <Label text={"ACTIVE"} tintColor={tintColor} focused={focused}/>
+          return <Label text={"GAMES"} tintColor={tintColor} focused={focused}/>
         }
       }
     }
   },
   {
-    initialRouteName: "Stories",
+    initialRouteName: "Bussinesses",
     tabBarOptions: {
       activeTintColor: "#1a1b1c",
       inactiveTintColor: "#999999",
@@ -43,4 +41,4 @@ const topTab = createMaterialTopTabNavigator(
   }
 );
 
-export default createAppContainer(topTab);
+export default createAppContainer(topTabDiscover);

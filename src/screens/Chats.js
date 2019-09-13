@@ -16,25 +16,25 @@ export default class Chats extends React.Component {
 
   _renderStories = ({item}) => {
     return((item.user_story !== null) ?
-      <View style={styles.stories}>
+      <TouchableOpacity style={styles.stories}>
         <RoundedImage uri={item.user_story} size={55}/>
         <Text style={styles.storiesText}>{item.user_name.split(" ")[0]}</Text>
-      </View>
+      </TouchableOpacity>
       :
-      <View style={styles.stories}>
+      <TouchableOpacity style={styles.stories}>
         <View style={styles.storiesAdd}>
           <Icon name={"plus"} size={35} color={"#1a1b1c"}/>
         </View>
         <Text style={styles.storiesText}>Your story</Text>
-      </View>
+      </TouchableOpacity>
     )
   }
 
   _renderChatLine = ({item}) => {
     return(
-      <View>
+      <TouchableOpacity>
         <ChatLine item={item} />
-      </View>
+      </TouchableOpacity>
     )
   }
 

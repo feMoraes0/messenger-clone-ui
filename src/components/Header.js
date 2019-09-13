@@ -5,7 +5,9 @@ import Icon from "react-native-vector-icons/FontAwesome";
 export class HeaderIcon extends React.Component {
   render() {
     return(
-      <Icon name={this.props.name} size={18} style={styles.icon} />
+      <TouchableOpacity>
+        <Icon name={this.props.name} size={18} style={styles.icon} />
+      </TouchableOpacity>
     )
   }
 }

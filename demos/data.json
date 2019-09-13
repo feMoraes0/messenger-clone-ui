@@ -114,5 +114,47 @@
       "user_story": "https://pbs.twimg.com/profile_images/803705938125459456/lbICKs79_400x400.jpg"
       
     }
-  ]
+  ],
+  "bussinesses":
+  {
+    "suggested":
+    [
+      {
+        "id": "1",
+        "title": "PetShop",
+        "reason": "Commented on a post",
+        "image": "https://petshopcontrol.blob.core.windows.net/blog/blog/wp-content/uploads/dog-in-shopping-cart-with-toys-850x600.jpg"
+      },
+      {
+        "id": "2",
+        "title": "Square",
+        "reason": "Commented on a post",
+        "image": "https://fastly.4sqi.net/img/general/200x200/34017101_ZNeGLF2Sy0O57bxtLp5Y7rRFtA0xKx5Sj6n823zNnAI.jpg"
+      },
+      {
+        "id": "3",
+        "title": "Veterinary",
+        "reason": "Commented on a post",
+        "image": "https://www.crmv-pr.org.br/uploads/noticia/cfmv-curso-auxiliar-site.jpg"
+      }
+    ],
+    "recent":
+    [
+      {
+        "id": "1",
+        "title": "https://pbs.twimg.com/profile_images/1141781661551665153/BMnvVd2u_400x400.jpg",
+        "image": "Flutter"
+      },
+      {
+        "id": "2",
+        "title": "https://www.tuannguyen.tech/wp-content/uploads/2019/01/react.png",
+        "image": "React"
+      },
+      {
+        "id": "3",
+        "title": "https://yt3.ggpht.com/a/AGF-l7-oejQCS_gTyEQsF2iK8Y3kYJzvYEIcn45VCg=s900-c-k-c0xffffffff-no-rj-mo",
+        "image": "Ionic"
+      }
+    ]
+  }
 }

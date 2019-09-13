@@ -13,7 +13,7 @@ const tabs = createBottomTabNavigator(
     Discover: DiscoverScreen
   },
   {
-    initialRouteName: "Discover",
+    initialRouteName: "Chats",
     tabBarOptions: {
       activeTintColor: "#1a1b1c",
       inactiveTintColor: "#898989",
@@ -27,7 +27,6 @@ const tabs = createBottomTabNavigator(
         padding: 0
       }
     },
-    
   }
 );
 

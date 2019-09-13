@@ -12,8 +12,6 @@ const stack = createStackNavigator(
         header: null
       })
     }
-  },
-  {
   }
 );
 

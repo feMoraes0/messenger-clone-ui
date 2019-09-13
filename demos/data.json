@@ -121,7 +121,7 @@
     [
       {
         "id": "1",
-        "title": "PetShop",
+        "title": "Pet Shop",
         "reason": "Commented on a post",
         "image": "https://petshopcontrol.blob.core.windows.net/blog/blog/wp-content/uploads/dog-in-shopping-cart-with-toys-850x600.jpg"
       },
@@ -142,18 +142,39 @@
     [
       {
         "id": "1",
-        "title": "https://pbs.twimg.com/profile_images/1141781661551665153/BMnvVd2u_400x400.jpg",
-        "image": "Flutter"
+        "image": "https://i.imgur.com/Kv2DmAp.jpg",
+        "title": "Food"
       },
       {
         "id": "2",
-        "title": "https://www.tuannguyen.tech/wp-content/uploads/2019/01/react.png",
-        "image": "React"
+        "image": "https://www.themarysue.com/wp-content/uploads/2013/07/pet.jpg",
+        "title": "4th"
       },
       {
         "id": "3",
-        "title": "https://yt3.ggpht.com/a/AGF-l7-oejQCS_gTyEQsF2iK8Y3kYJzvYEIcn45VCg=s900-c-k-c0xffffffff-no-rj-mo",
-        "image": "Ionic"
+        "image": "https://yt3.ggpht.com/a/AGF-l7_2wwdkj6o9wtUF1slDu4fQhg8Ez2BlH8ndxQ=s900-c-k-c0xffffffff-no-rj-mo",
+        "title": "HiddenMe"
+      }
+    ],
+    "featured":
+    [
+      {
+        "id": "1",
+        "image": "https://pbs.twimg.com/profile_images/1022518859906142208/NI18dlQg_400x400.jpg",
+        "title": "Flutter",
+        "subtitle": "UI toolkit for building beautiful, natively compiled applications"
+      },
+      {
+        "id": "2",
+        "image": "https://www.tuannguyen.tech/wp-content/uploads/2019/01/react.png",
+        "title": "React",
+        "subtitle": "The best parts of native development with React"
+      },
+      {
+        "id": "3",
+        "image": "https://yt3.ggpht.com/a/AGF-l7-oejQCS_gTyEQsF2iK8Y3kYJzvYEIcn45VCg=s900-c-k-c0xffffffff-no-rj-mo",
+        "title": "Ionic",
+        "subtitle": "Build and ship beautiful cross-platform hybrid and Progressive Web Apps with ease"
       }
     ]
   }

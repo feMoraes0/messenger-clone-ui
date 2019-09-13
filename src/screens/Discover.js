@@ -1,5 +1,5 @@
 import React from "react";
-import { SafeAreaView, View, Text, StyleSheet } from "react-native";
+import { SafeAreaView, ScrollView, Text, StyleSheet } from "react-native";
 
 import Icon from "react-native-vector-icons/Feather";
 
@@ -16,8 +16,10 @@ export default class Discover extends React.Component {
     return(
       <SafeAreaView style={styles.container}>
         <Header screen={"Discover"}/>
-        <SearchBar />
-        <TopTab />
+        <ScrollView>
+          <SearchBar />
+          <TopTab />
+        </ScrollView>
       </SafeAreaView>
     );
   }

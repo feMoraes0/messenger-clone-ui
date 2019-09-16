@@ -18,7 +18,7 @@ export class Header extends React.Component {
     return(
       <View style={styles.container}>
         <View style={styles.leftContainer}>
-          <TouchableOpacity>
+          <TouchableOpacity onPress = {() => {this.props.navigation.navigate("Me")}}>
             <Image
               source={{uri: "https://azure.wgp-cdn.co.uk/app-yourdog/posts/pembroke_welsh_corgi.jpg"}}
               style={styles.userImage}

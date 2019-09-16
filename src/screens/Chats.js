@@ -39,11 +39,12 @@ export default class Chats extends React.Component {
   }
 
   render() {
+    const { navigation } = this.props;
     return(
       <SafeAreaView style={{ flex: 1 }}>
         <StatusBar backgroundColor="#ffffff" barStyle="dark-content" />
         
-        <Header screen={"Chats"}>
+        <Header screen={"Chats"} navigation={navigation}>
           <HeaderIcon name={"camera"}/>
           <HeaderIcon name={"pencil"}/>
         </Header>

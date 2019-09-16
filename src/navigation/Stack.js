@@ -19,6 +19,9 @@ const stack = createStackNavigator(
         header: null
       })
     }
+  },
+  {
+    initialRouteName: "Me"
   }
 );
 
